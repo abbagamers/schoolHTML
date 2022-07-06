@@ -12,3 +12,26 @@
   <a class="active" href="projects.html">Pi Projects</a>
   <a href="specs.html">Specs</a>
 </div>
+<h2>Here, on this page, we will give you some insight into projects that can be made with a RasPi.</h2><br><br><br><br>
+<div style="text-align:center;">
+<h2>
+Local Apache Web Server<br><br>
+Apache is a widely used server program for website hosting in the community. It will run fine on any raspi, including the old RasPi B+. Now, to install Apache, type in this one easy command. sudo apt-get update && sudo apt-get upgrade && sudo apt install apache2 –y. To check the status of apache, type in the command: sudo systemctl status apache2. If apache is enabled, congrats! On another machine, or the Raspi if it has a browser(I am running a headless server), go to your ip address, which can be found with hostname –I or ifconfig. If you get there, you should see the default Debian/Apache web page.​
+<br><br>
+Editing the Apache Webpage​
+<br><br>
+Once you have reached this stage, you would want to change the webpage. To do this, run cd /var/www/html . This changes your directory to /var/www/html which is where the main html file is saved. From here, use your preferred code/text editor to open the file. On the pi , I use nano, but some people prefer vim and other editors. From here, re-write the code for it to fit your html requirements.​
+<br><br>Publishing​
+<br><br>
+To publish this website, so-to-speak, you would require port forwarding, or for your router to listen to certain ports for packets. For this, I would recommend taking to either ​
+<br><br><br>
+  a)  Slack Overflow​
+<br>
+  b)  ISP router manuals.​
+
+​
+
+​
+​
+</h2>
+</div>
